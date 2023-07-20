@@ -7,7 +7,7 @@ type Props = {
   priority: boolean,
 }
 
-// 画像を表示
+// 記事一覧の画像を表示
 export const AtomImage = ({ src, width, height, priority }: Props) => (
   <Image
     className="w-full"

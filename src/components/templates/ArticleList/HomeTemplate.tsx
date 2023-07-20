@@ -1,5 +1,5 @@
-import { Article } from "@/types/article"
-import { OrganismArticleList } from "../organisms/ArticleList/ArticleList"
+import { Article } from '@/types/article'
+import { OrganismArticleList } from '../../organisms/ArticleList/ArticleList'
 
 type Props = {
   articles: Array<Article>

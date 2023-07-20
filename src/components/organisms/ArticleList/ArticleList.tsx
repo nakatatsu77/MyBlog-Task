@@ -1,4 +1,4 @@
-import { MoleculeArticleCard } from '@/components/molecules/Article/ArticleCard'
+import { MoleculeArticleCard } from '@/components/molecules/ArticleListCard/ArticleCard'
 import { Article } from '@/types/article'
 
 type Props = {

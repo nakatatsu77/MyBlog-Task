@@ -1,4 +1,4 @@
-import { ArticleListTemplate } from '@/components/templates/HomeTemplate'
+import { ArticleListTemplate } from '@/components/templates/ArticleList/HomeTemplate'
 import { client } from '../libs/client'
 import type { Article } from '../types/article'
 

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Article } from '@/types/article'
-import { AtomImage } from '@/components/atoms/Image'
+import { AtomImage } from '@/components/atoms/ArticleListImage/Image'
 
 // 型情報
 type Props = {
