@@ -15,12 +15,14 @@ export const MoleculeArticleCard = ({ article }: Props) => (
     className="rounded overflow-hidden shadow-lg transition-transform hover:scale-105 cursor-pointer"
   >
     {/* hover時にscale変化とカーソル変化を適用 */}
-    <AtomImage
-      src={article.eye_catch.url}
-      width={200}
-      height={200}
-      priority={true}
-    />
+    {article.eye_catch && (
+      <AtomImage
+        src={article.eye_catch.url}
+        width={200}
+        height={200}
+        priority={true}
+      />
+    )}
     <div className="px-6 py-4">
       <div> {article.title}</div>
     </div>
