@@ -7,7 +7,6 @@ type Props = {
   article: Article
 }
 
-// 記事カードのモレキュラコンポーネント
 export const MoleculeArticleCard = ({ article }: Props) => (
   <Link
     href={`/article/${article.id}`}
